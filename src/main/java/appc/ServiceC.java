@@ -26,10 +26,10 @@ public class ServiceC implements IServiceC {
 	
 	@Override
 	public int jumble(int leftOne, int rightOne, int leftTwo, int rightTwo) {
-		String serviceCclientId = "9aa19969-286b-43a5-9e04-4069530e6560";
-
-		String url = "https://api.apim.ibmcloud.com/bluemixtraininganzgmailcom-dev/sb";
 		
+		String serviceCclientId = "822f1b79-3758-42b8-a168-3be466253ab4";
+		
+		  String url = "https://api.apim.ibmcloud.com/mbrightau1ibmcom-dev/sb";
 		Map<String, List<String>> serviceARequestHeaders = new HashMap<String, List<String>>();
 		serviceARequestHeaders.put("X-IBM-Client-Id", Collections.singletonList(serviceCclientId));
 
